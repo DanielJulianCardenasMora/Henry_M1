@@ -54,7 +54,39 @@ function BinarioADecimal(num) {
 
 }
 
-function DecimalABinario(num) {}
+function DecimalABinario(num) {
+
+   
+   var resto = 0;
+   var arrResto = [];
+   var divicion = 0;
+
+   while (num > 0){
+
+      resto = num % 2;
+      arrResto.push(resto);
+
+      divicion = Math.floor(num / 2);
+      num = divicion;
+
+      if (num/2 > 0 && num/2 < 1 ){
+
+         resto = num % 2;
+         arrResto.push(resto);
+   
+         divicion = Math.floor(num / 2);
+         num = divicion;
+
+
+         break;
+      } 
+   }
+
+   var arrRev = [];
+   arrRev = arrResto.reverse();
+   var arrRevJoin = arrRev.join('');
+   return arrRevJoin;
+}
 
 module.exports = {
    BinarioADecimal,
