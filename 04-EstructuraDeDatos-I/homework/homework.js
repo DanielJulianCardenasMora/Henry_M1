@@ -16,7 +16,38 @@ Como ejercicio adicional y completamente opcional, al terminar de resolver este 
 
 function nFactorial(n) {}
 
-function nFibonacci(n) {}
+// que haga una operacion n numero de veces
+
+
+function nFibonacci(n) {
+  x=0;
+  y=1;
+  tres=x+y; //n
+  siguiente;
+  
+  if (n<=1){
+    return n
+  }else{
+    return nFibonacci(n-1)+nFibonacci(n-2)
+    
+    console.log(nFibonacci);
+  }
+
+
+  // count= 0;
+  // if (n == 0){
+    
+  //   res;
+  //   return res;
+  // }
+
+  // n--
+
+
+  // let x = res; 
+  // return nFibonacci(x)
+
+}
 
 /*
 Implementar la clase Queue, sabiendo que es una estructura de tipo FIFO, donde el primer elemento que ingresa es el primero que se quita. Definir los siguientes métodos:
