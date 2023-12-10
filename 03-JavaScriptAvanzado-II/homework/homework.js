@@ -16,8 +16,8 @@ otroContador()      // 2 */
 function counter() {
   let cuenta = 0;
   return function(){
-      cuenta++
-      return cuenta;
+    cuenta++
+    return cuenta;
   }
 }
 
