@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../Henry/Sketch"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "FT-M1-master"
+	}
+}
